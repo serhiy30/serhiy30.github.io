@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Serhiy Dranko - Data Analyst</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script defer src="script.js"></script>
+</head>
+<body class="dark-theme">
+  <nav class="top-nav">
+    <div class="lang-toggles">
+      <span class="lang-toggle active" id="eng" aria-label="English">ENG</span>
+      <span class="lang-toggle" id="de" aria-label="German">DE</span>
+      <span class="lang-toggle" id="ua" aria-label="Ukrainian">UA</span>
+    </div>
+    <label class="theme-switch" aria-label="Toggle dark/light theme">
+	  <input type="checkbox" id="theme-checkbox" />
+      <span class="slider"></span>
+	  
+    </label>
+  </nav>
+
+  <header class="profile-header">
+    <div class="profile-content">
+      <h1 data-eng="Serhiy Dranko" data-de="Serhiy Dranko" data-ua="Дранко Сергій">Serhiy Dranko</h1>
+      <h2 data-eng="Data Analyst" data-de="Datenanalyst" data-ua="Аналітик даних">Data Analyst</h2>
+      <p data-eng="Turning data into something you can use." data-de="Ich mache aus Daten etwas, das man wirklich nutzen kann." data-ua="Перетворюю дані на те, чим справді можна користуватися.">I turn raw data into clear business insights.</p>
+      <p data-eng="Let’s take your idea and make it work with data." data-de="Lassen Sie uns Ihre Idee nehmen und sie mit Daten zum Laufen bringen." data-ua="Давайте візьмемо вашу ідею й зробимо так, щоб вона працювала з даними.">3+ years experience in analytics, reporting and ETL</p>
+    <div class="buttons">
+		<button id="view-projects" data-eng="View Projects" data-de="Projekte anzeigen" data-ua="Переглянути проекти">
+		View Projects
+		</button>
+
+		<a id="cv-download-link" href="assets/cv/cv-en.pdf" download>
+			<button id="download-cv-btn" 
+				data-eng="Download CV" 
+				data-de="Lebenslauf herunterladen" 
+				data-ua="Завантажити резюме">
+				Download CV
+			</button>
+		</a>
+	</div>
+	</div>
+	
+   	<img src="assets/photo/Photo-light.png" alt="Serhiy Dranko" class="profile-photo light-only" loading="lazy" />
+	<img src="assets/photo/Photo-dark.png" alt="Serhiy Dranko" class="profile-photo dark-only" loading="lazy" />
+	
+  </header>
+
+  <section class="info-section">
+    <div class="info-bar"><span class="icon">📍</span><span data-eng="Location: Moenchengladbach (DE) / Remote" data-de="Standort: Mönchengladbach (DE) / Remote" data-ua="Місцезнаходження: Менхенгладбах (DE) / Віддалено">Location: Europe / Remote</span></div>
+    <div class="info-bar"><span class="icon">📊</span><span data-eng="Areas: E-commerce, Sales, Operations" data-de="Bereiche: E-Commerce, Vertrieb, Betriebsprozesse" data-ua="Сфери: E-Commerce, Продажі, Операційна діяльність">Domains: E-commerce, Sales, Operations</span></div>
+    <div class="info-bar"><span class="icon">🌐</span><span data-eng="Languages: English / German / Ukrainian" data-de="Sprachen: Englisch / Deutsch / Ukrainisch" data-ua="Мови: Англійська / Німецька / Українська">Languages: English / German / Ukrainian</span></div>
+	<div class="info-bar"><span class="icon">✉️</span><span data-eng="Specialty: Making data work for teams" data-de="Spezialität: Daten für Teams nutzbar machen" data-ua="Спеціальність: Роблю дані корисними для команд">Experience: Data Analyst</span></div>  
+  </section>
+
+  <section id="projects">
+    <h2 data-eng="Projects" data-de="Projekte" data-ua="Проекти">projects</h2>
+    <div class="projects-grid">
+      <div class="project-card">
+        <h3 data-eng="Inventory & Pricing Change Reporting System" data-de="Berichterstattungssystem für Bestands- und Preisänderungen" data-ua="Звіт про зміни в запасах і цінах">E-commerce Sales Delta Report</h3>
+        <p data-eng="Automated daily report to track Inventory & Pricing changes" data-de="Automatischer Tagesbericht zur Verfolgung von Bestands- und Preisänderungen" data-ua="Автоматизований щоденний звіт для відстеження змін в запасах і цінах">Automated daily report to track revenue changes</p>
+        <ul>
+          <li data-eng="Python + Spark SQL + Azure + Delta Lake + Databricks" data-de="Python + Spark SQL + Azure + Delta Lake + Databricks" data-ua="Python + Spark SQL + Azure + Delta Lake + Databricks">Python + Spark SQL + Azure + Delta Lake + Databricks</li>
+          <li data-eng="Compared day-to-day inventory and price metrics" data-de="Vergleich der täglichen Bestands- und Preiskennzahlen" data-ua="Порівняння щоденних показників запасів і цін">Compared day-to-day sales metrics</li>
+          <li data-eng="Transition from manual price analysis to fully automated push notification reports" 
+			  data-de="Übergang von manueller Preisanalyse zu vollautomatischen Push-Benachrichtigungsberichten" 
+			  data-ua="Перехід від ручного аналізу цін до повністю автоматизованих звітів із push-повідомленнями"
+			>Transition from manual price analysis to fully automated push notification reports</li>
+        </ul>
+        <div class="project-buttons">
+			<a href="https://github.com/serhiy30/Python/tree/main/Top%20100%20Allert" target="_blank" style="text-decoration: none;">
+			<button data-eng="View GitHub" data-de="GitHub anzeigen" data-ua="Переглянути GitHub">
+			View GitHub
+			</button>
+			</a>
+
+			<a href="https://github.com/user-attachments/assets/3a2baf8f-f02f-4a6d-9d31-3ec53ff872b6" target="_blank" style="text-decoration: none;">
+			<button data-eng="View Demo" data-de="Demo anzeigen" data-ua="Переглянути демо">
+			View Demo
+			</button>
+			</a>
+		</div>
+      </div>
+      
+	  <div class="project-card">
+		<h3 data-eng="Jira Effort Aggregator & Financial Mapper" 
+			data-de="Jira Aufwand-Aggregator & Finanz-Mapper" 
+			data-ua="Агрегатор трудовитрат Jira та фінансовий мапінг">
+			Jira Effort Aggregator & Financial Mapper
+		</h3>
+  
+		<p data-eng="Automated SQL pipeline to consolidate multi-level Jira worklogs" 
+		   data-de="Automatisierte SQL-Pipeline zur Konsolidierung mehrstufiger Jira-Worklogs" 
+           data-ua="Автоматизований SQL-пайплайн для консолідації багаторівневих ворклогів Jira">
+           Automated SQL pipeline to consolidate multi-level Jira worklogs into unified financial reports
+        </p>
+
+			<ul>
+			<li data-eng="Spark SQL + Databricks + Jira API (Tempo)"
+			 data-de="Spark SQL + Databricks + Jira API (Tempo)"
+             data-ua="Spark SQL + Databricks + Jira API (Tempo)">
+             Spark SQL + Databricks + Jira API (Tempo)
+			</li>
+			<li data-eng="Normalizes complex hierarchies (Epic → Task → Sub-task) into flat financial views" 
+		      data-de="Normalisiert komplexe Hierarchien (Epic → Task → Sub-task) in flache Finanzansichten."
+              data-ua="Нормалізація складних ієрархій (Epic → Task → Sub-task) у пласкі фінансові звіти">
+              Normalizes complex hierarchies (Epic → Task → Sub-task) into flat financial views
+           </li>
+           <li data-eng="Automated bottom-up cost allocation and expense type mapping" 
+               data-ua="Автоматизований розподіл витрат знизу вгору та мапінг типів витрат">
+               Automated bottom-up cost allocation and expense type mapping
+           </li>
+        </ul>
+
+		<div class="project-buttons">
+        <a href="https://github.com/serhiy30/SQL-works/tree/main/jhira_dbx" target="_blank">
+        <button data-eng="View GitHub" data-de="GitHub anzeigen"data-ua="Переглянути GitHub">View GitHub</button>
+        </a>
+        <a href="https://github.com/user-attachments/assets/ce5c4df6-aa46-480a-82f4-8f4eb942bb89" target="_blank">
+        <button data-eng="View Demo" data-de="Demo anzeigen"data-ua="Переглянути демо">View Demo</button>
+        </a>
+		</div>
+		</div>
+
+
+	  
+	  
+		<div class="project-card">
+			<h3 data-eng="Global Sales Performance & Analytics System" 
+		  data-de="Globales Vertriebsleistungs- und Analysesystem"
+		  data-ua="Глобальна система аналітики та моніторингу продажів">
+			<div class="project-card">
+				  Global Sales Performance & Analytics System
+			  </h3>
+			  
+			  <p data-eng="Automated KPI monitoring for US, EU, and UA sales regions." 
+			     data-de="Automatisierte KPI-Überwachung für die Vertriebsregionen US, EU und UA."
+				 data-ua="Автоматизований моніторинг KPI для регіонів продажів США, ЄС та України.">
+				 Automated KPI monitoring for US, EU, and UA sales regions.
+			  </p>
+
+			  <ul>
+				<li data-eng="Python + Spark SQL + Azure + Databricks + Microsoft Graph API" 
+				    data-de="Python + Spark SQL + Azure + Databricks + Microsoft Graph API" 
+					data-ua="Python + Spark SQL + Azure + Databricks + Microsoft Graph API" >
+					Python + Spark SQL + Azure + Databricks + Microsoft Graph API
+				</li>
+				<li data-eng="Instant calculation of Conversion rates and Average Order Value (AOV)." 
+				    data-de="Sofortige Berechnung von Konversionsraten und durchschnittlichem Bestellwert."
+					data-ua="Миттєвий розрахунок конверсії та середнього чека (AOV).">
+					Instant calculation of Conversion rates and Average Order Value (AOV) using Spark SQL.
+				</li>
+				<li data-eng="Fully automated delivery via Microsoft Graph API with dynamic HTML tables and Excel attachments." 
+				    data-de="Vollautomatisierter Versand via Microsoft Graph API mit dynamischen HTML-Tabellen und Excel-Anhängen."
+					data-ua="Повністю автоматизована розсилка через Microsoft Graph API з динамічними HTML-таблицями та Excel-файлами.">
+					Fully automated delivery via Microsoft Graph API with dynamic HTML tables and Excel attachments.
+				</li>
+			  </ul>
+
+			  <div class="project-buttons">
+				<a href="https://github.com/serhiy30/Python/tree/main/Hourly%20reporting%20for%20Contact%20center" target="_blank">
+				  <button data-eng="View GitHub"
+						data-de="GitHub anzeige"
+						data-ua="Код на GitHub">View Code</button>
+				</a>
+				<a href="https://github.com/user-attachments/assets/3a03f103-fc82-4f5d-b1e4-3bc357b05de6" target="_blank">
+				  <button data-eng="View Demo"
+						  data-de="Demo anzeigen"
+						  data-ua="Демо звіту">View Dashboard Sample</button>
+				</a>
+			</div>
+      </div>
+
+	
+		
+      <div class="project-card">
+			<h3 data-eng="Product Substitution & Margin Analytics." 
+		  data-de="Product Substitution und Margin Analytics."
+		  data-ua="Аналіз заміщення продуктів та маржі">
+			<div class="project-card">
+				  Global Sales Performance & Analytics System
+			  </h3>
+			  
+			  <p data-eng="Strategic margin optimization through OE-part alternative matching." 
+			     data-de="Strategische Margenoptimierung durch OE-Teile-Abgleich."
+				 data-ua="Стратегічна оптимізація маржі через підбір альтернатив за OE-номерами.">
+				 Automated KPI monitoring for US, EU, and UA sales regions.
+			  </p>
+
+			  <ul>
+				<li data-eng="Spark SQL + SQL Analytics" 
+				    data-de="Spark SQL + SQL-Analytik" 
+					data-ua="Spark SQL + SQL Аналітика" >
+					Python + Spark SQL + Azure + Databricks + Microsoft Graph API
+				</li>
+				<li data-eng="Advanced Joins via OE-part (Original Equipment) numbers to link primary products with market alternatives." 
+				    data-de="Fortgeschrittene Joins über OE-Teilenummern zur Verknüpfung von Primärprodukten mit Marktalternativen."
+					data-ua="Складні Join-операції через OE-номери для зв’язку основних товарів з ринковими альтернативами.">
+					Instant calculation of Conversion rates and Average Order Value (AOV) using Spark SQL.
+				</li>
+				<li data-eng="Sophisticated calculations integrating product cost, sales price, and shipping margins to identify the most profitable substitutes." 
+				    data-de="Detaillierte Berechnungen unter Einbeziehung von Versandmargen zur Identifizierung profitabler Substitutionen."
+					data-ua="Розрахунок повної маржі для пошуку найвигідніших варіантів заміни.">
+					Fully automated delivery via Microsoft Graph API with dynamic HTML tables and Excel attachments.
+				</li>
+			  </ul>
+
+			  <div class="project-buttons">
+				<a href="https://github.com/serhiy30/SQL-works/tree/main/mpn_alternative_products" target="_blank">
+				  <button data-eng="View GitHub"
+						data-de="GitHub anzeige"
+						data-ua="Код на GitHub">View Code</button>
+				</a>
+				<a href="https://github.com/user-attachments/assets/15d7c4db-7d50-4fb9-8e6c-a3fa70195f12" target="_blank">
+				  <button data-eng="View Demo"
+						  data-de="Demo anzeigen"
+						  data-ua="Демо звіту">View Dashboard Sample</button>
+				</a>
+			</div>
+      </div>
+  </section>
+
+  <section id="skills-about">
+  <div class="skills">
+    <h2 data-eng="Skills" data-de="Fähigkeiten" data-ua="Навички">Skills</h2>
+    <div class="skill-card">
+      <div class="icon-container analysis-icon">📊</div>
+      <h3 data-eng="Data Analysis" data-de="Datenanalyse" data-ua="Аналіз даних">Data Analysis</h3>
+      <ul>
+        <li data-eng="SQL (complex joins, window functions, aggregations)" data-de="SQL (komplexe Joins, Window-Funktionen, Aggregationen)" data-ua="SQL (complex joins, window functions, aggregations)">SQL (complex joins, window functions, aggregations)</li>
+        <li data-eng="Python (pandas, automation, data manipulation)" data-de="Python (pandas, Automatisierung, Datenverarbeitung)" data-ua="Python (pandas, автоматизація, обробка даних)">Python (pandas, automation)</li>
+		<li data-eng="Data wrangling and exploratory data analysis (EDA)" data-de="Datenaufbereitung und explorative Datenanalyse (EDA)" data-ua="Підготовка даних та дослідницький аналіз даних (EDA)">Data wrangling and exploratory data analysis (EDA)</li>
+      </ul>
+    </div>
+    <div class="skill-card">
+      <div class="icon-container engineering-icon">⚙️</div>
+      <h3 data-eng="Data Engineering" data-de="Datenengineering" data-ua="Інженерія даних">Data Engineering</h3>
+      <ul>
+        <li data-eng="Databricks, Spark SQL" data-de="Databricks, Spark SQL" data-ua="Databricks, Spark SQL">Databricks, Spark SQL</li>
+        <li data-eng="ETL pipelines (design, implementation, optimization)" data-de="ETL-Pipelines (Design, Implementierung, Optimierung)" data-ua="ETL-pipelines (проектування, реалізація, оптимізація)">ETL pipelines</li>
+		<li data-eng="Data integration and transformation" data-de="Datenintegration und -transformation" data-ua="Інтеграція та трансформація даних">Data integration and transformation</li>
+      </ul>
+    </div>
+    <div class="skill-card">
+      <div class="icon-container Tools & Workflow-icon">🛠️</div>
+      <h3 data-eng="Tools & Workflow" data-de="Tools & Workflow" data-ua="Інструменти та робочі процеси">Visualization</h3>
+      <ul>
+        <li data-eng="Data quality checks and validation" data-de="Datenqualitätsprüfungen" data-ua="Перевірка якості даних та їх валідація">Data quality checks and validation</li>
+		<li data-eng="Delta Lake (Time Travel, ACID transactions), Apache Spark, Data Lakehouse" data-de="Delta Lake (Time Travel, ACID transactions), Apache Spark, Data Lakehouse" data-ua="Delta Lake (Time Travel, ACID transactions), Apache Spark, Data Lakehouse">Delta Lake (Time Travel, ACID transactions), Apache Spark, Data Lakehouse</li>
+		<li data-eng="Debugging and troubleshooting data issues" data-de="Fehlerbehebung und Problemlösung bei Datenproblemen" data-ua="Налагодження та усунення неполадок з даними">Debugging and troubleshooting data issues</li>
+		<li data-eng="Version control (GitLab / GitHub)" data-de="Grundlegende Versionskontrolle (GitLab / GitHub)" data-ua="Базовий контроль версій (GitLab / GitHub)">Business dashboards</li>
+		
+      </ul>
+    </div>
+  </div>
+
+  <div class="about-me">
+    <h2 data-eng="About Me" data-de="Über mich" data-ua="Про мене">About Me</h2>
+    <p data-eng="I’m a Data Analyst with strong SQL skills and hands-on experience in Databricks. I enjoy working with data, building automated reports, analyzing sales and inventory, and spotting patterns or issues that might be easy to miss. I like combining SQL and Python to solve problems efficiently and to make data easier to understand for others. I’m looking for new opportunities, where I can continue developing my skills, contribute to meaningful projects, and tackle interesting data challenges." 
+	   data-de="Ich bin Datenanalyst mit fundierten SQL-Kenntnissen und praktischer Erfahrung mit Databricks. Mir macht die Arbeit mit Daten Spaß, insbesondere das Erstellen automatisierter Berichte, die Analyse von Umsatz und Lagerbestand sowie das Erkennen von Mustern und Problemen, die leicht zu übersehen sind. Ich kombiniere gerne SQL und Python, um Probleme effizient zu lösen und Daten verständlicher zu machen. Ich suche nach neuen Herausforderungen, in denen ich meine Fähigkeiten weiterentwickeln, zu sinnvollen Projekten beitragen und interessante Datenanalysen durchführen kann." 
+	   data-ua="Я аналітик даних з сильними навичками SQL та практичним досвідом роботи з Databricks. Мені подобається працювати з даними, створювати автоматизовані звіти, аналізувати продажі та запаси, а також виявляти закономірності або проблеми, які легко пропустити. Мені подобається поєднувати SQL та Python для ефективного вирішення проблем та спрощення розуміння даних іншими. Я шукаю нові можливості, де я можу продовжувати розвивати свої навички, робити внесок у змістовні проекти та вирішувати цікаві проблеми з даними."
+	   >text</p>
+    <div class="contact">
+      <div class="contact-item">
+        <div class="contact-icon email-icon">✉️</div>
+        <a href="mailto:drankoserhiy1993@gmail.com">drankoserhiy1993@gmail.com</a>
+      </div>
+      <div class="contact-item">
+        <div class="contact-icon linkedin-icon">🔗</div>
+        <a href="https://www.linkedin.com/in/serhiy-dranko-7aa0471b9" target="_blank">
+		<li data-eng="My LinkedIn"
+			data-de="Mein LinkedIn"
+			data-ua="Мій Linkedin"
+			>More on Github</li>
+		</a>
+      </div>
+      <div class="contact-item">
+        <div class="contact-icon github-icon">🐙</div>
+        <a href="https://github.com/serhiy30" target="_blank">
+		<li data-eng="More on Github"
+			data-de="Mehr auf Github"
+			data-ua="Більше на Github"
+			>More on Github</li>
+		</a>
+      </div>
+      <button data-eng="Contact Me" data-de="Kontaktieren Sie mich" data-ua="Зв'язатися зі мною">Contact Me</button>
+    </div>
+  </div>
+  </section>
+  <footer class="site-footer">
+    <div class="footer-links">
+        <a href="#" id="open-impressum" 
+           data-eng="Legal Notice (Impressum)" 
+           data-de="Impressum" 
+           data-ua="Юридична інформація (Impressum)">Impressum</a> 
+        |  
+        <a href="#" id="open-privacy" 
+           data-eng="Privacy Policy (Datenschutzerklärung)" 
+           data-de="Datenschutz" 
+           data-ua="Конфіденційність (Datenschutzerklärung)">Privacy Policy</a>
+    </div>
+
+    <p style="margin-top: 15px;">&copy; 2026 Serhiy Dranko</p>
+	</footer>
+
+   <div id="legal-modal" class="modal">
+    <div class="modal-content">
+    <span class="close-modal">&times;</span>
+    <div id="legal-text-content"></div>
+   </div>
+</div>
+ 
+</body>
+</html>
