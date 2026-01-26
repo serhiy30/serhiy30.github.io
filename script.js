@@ -168,7 +168,7 @@ function switchLanguage(lang) {
 
   const cvLink = document.getElementById('cv-download-link');
   if (cvLink) {
-    cvLink.href = `assets/cv/Serhiy_Dranko-CV-${lang}.pdf`;
+    cvLink.href = `assets/cv/Serhiy-Dranko-CV-${lang}.pdf`;
   }
 
   // 🔥 UPDATE OPEN MODAL LANGUAGE
@@ -248,4 +248,5 @@ const legalData = {
     `
   }
 };
+
 
