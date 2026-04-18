@@ -303,7 +303,12 @@
            data-ua="Конфіденційність (Datenschutzerklärung)">Privacy Policy</a>
     </div>
 
-    <p style="margin-top: 15px;">&copy; 2026 Serhiy Dranko</p>
+    <p style="margin-top: 15px;">&copy; <span id="year"></span> Serhiy Dranko</p>
+
+	 <script>
+  	 document.getElementById("year").textContent = new Date().getFullYear();
+	 </script>
+	  
 	</footer>
 
    <div id="legal-modal" class="modal">
