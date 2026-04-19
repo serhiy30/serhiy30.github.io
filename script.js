@@ -198,19 +198,19 @@ const legalData = {
       <h2>Legal Notice (Impressum)</h2>
       <p><strong>Information according to § 5 TMG</strong></p>
       <p>Serhiy Dranko<br>Schleestr. 4<br>41199 Moenchengladbach, Germany</p>
-      <p><strong>Contact</strong><br>Email: drankoserhiy1993@gmail.com</p>
+      <p><strong>Contact</strong><br>Email: serhiydranko@gmail.com</p>
     `,
     de: `
       <h2>Impressum</h2>
       <p><strong>Angaben gemäß § 5 TMG</strong></p>
       <p>Serhiy Dranko<br>Schleestr. 4<br>41199 Mönchengladbach, Deutschland</p>
-      <p><strong>Kontakt</strong><br>E-Mail: drankoserhiy1993@gmail.com</p>
+      <p><strong>Kontakt</strong><br>E-Mail: serhiydranko@gmail.com</p>
     `,
     ua: `
       <h2>Юридична інформація (Impressum)</h2>
       <p><strong>Згідно з § 5 TMG</strong></p>
       <p>Сергій Дранко<br>Schleestr. 4<br>41199 Менхенгладбах, Німеччина</p>
-      <p><strong>Контакти</strong><br>Email: drankoserhiy1993@gmail.com</p>
+      <p><strong>Контакти</strong><br>Email: serhiydranko@gmail.com</p>
     `
   },
 
