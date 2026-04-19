@@ -66,7 +66,7 @@ document.addEventListener('DOMContentLoaded', () => {
   // =======================
   document.querySelector('.contact button')
     .addEventListener('click', () => {
-      window.location.href = 'mailto:drankoserhiy1993@gmail.com';
+      window.location.href = 'mailto:serhiydranko@gmail.com';
     });
 
   // =======================
